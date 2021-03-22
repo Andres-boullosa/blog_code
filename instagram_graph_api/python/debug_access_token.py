@@ -24,8 +24,8 @@ params = getCreds() # get creds
 params['debug'] = 'yes' # set debug
 response = debugAccessToken( params ) # hit the api for some data!
 
-print "\nData Access Expires at: " # label
-print datetime.datetime.fromtimestamp( response['json_data']['data']['data_access_expires_at'] ) # display out when the token expires
+print( "\nData Access Expires at: ") # label
+print( datetime.datetime.fromtimestamp( response['json_data']['data']['data_access_expires_at'] )) # display out when the token expires
 
-print "\nToken Expires at: " # label
-print datetime.datetime.fromtimestamp( response['json_data']['data']['expires_at'] ) # display out when the token expires
+print( "\nToken Expires at: ") # label
+print( datetime.datetime.fromtimestamp( response['json_data']['data']['expires_at'] )) # display out when the token expires

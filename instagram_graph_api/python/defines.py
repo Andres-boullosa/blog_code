@@ -10,9 +10,9 @@ def getCreds() :
 	"""
 
 	creds = dict() # dictionary to hold everything
-	creds['access_token'] = 'ACCESS-TOKEN' # access token for use with all api calls
-	creds['client_id'] = 'FB-APP-CLIENT-ID' # client id from facebook app IG Graph API Test
-	creds['client_secret'] = 'FB-APP-CLIENT-SECRET' # client secret from facebook app
+	creds['access_token'] = 'EAAMY04R8WLABACSViXUAxpKlpTdyvYzZCKZAyJZBbV2gwrZAvOGefgfybB24yC5eTcVmooSeU0uWZAThZCp4WVHsPIZCTwtbGPEuGVBZAZBMmG4VwZAAZAUxeHd1tFbWFxp4tPyD1CZC2JLEqJLMS1SJ8J9QUZCrjJmZAqO10qedR5jue5wG6WlAg1OyDAwMhx653ZCOxe5ez7WuSrIiByLkgpNUm83' # access token for use with all api calls
+	creds['client_id'] = '871721670039728' # client id from facebook app IG Graph API Test
+	creds['client_secret'] = '031d2fb3c0977e7f10138d1293b05485' # client secret from facebook app
 	creds['graph_domain'] = 'https://graph.facebook.com/' # base domain for api calls
 	creds['graph_version'] = 'v6.0' # version of the api we are hitting
 	creds['endpoint_base'] = creds['graph_domain'] + creds['graph_version'] + '/' # base endpoint with domain and version
@@ -53,9 +53,9 @@ def makeApiCall( url, endpointParams, debug = 'no' ) :
 def displayApiCallData( response ) :
 	""" Print out to cli response from api call """
 
-	print "\nURL: " # title
-	print response['url'] # display url hit
-	print "\nEndpoint Params: " # title
-	print response['endpoint_params_pretty'] # display params passed to the endpoint
-	print "\nResponse: " # title
-	print response['json_data_pretty'] # make look pretty for cli
+	print("\nURL: ") # title
+	print(response['url']) # display url hit
+	print( "\nEndpoint Params: ") # title
+	print( response['endpoint_params_pretty']) # display params passed to the endpoint
+	print( "\nResponse: " )# title
+	print( response['json_data_pretty']) # make look pretty for cli
