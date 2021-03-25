@@ -10,16 +10,16 @@ def getCreds() :
 	"""
 
 	creds = dict() # dictionary to hold everything
-	creds['access_token'] = 'EAAMY04R8WLABACSViXUAxpKlpTdyvYzZCKZAyJZBbV2gwrZAvOGefgfybB24yC5eTcVmooSeU0uWZAThZCp4WVHsPIZCTwtbGPEuGVBZAZBMmG4VwZAAZAUxeHd1tFbWFxp4tPyD1CZC2JLEqJLMS1SJ8J9QUZCrjJmZAqO10qedR5jue5wG6WlAg1OyDAwMhx653ZCOxe5ez7WuSrIiByLkgpNUm83' # access token for use with all api calls
+	creds['access_token'] = 'EAAMY04R8WLABAL8fnPrriCiKoCDI6iv2CFZBmQMW85JbR8enqT27cBD9mtHKyWXS8onrRQOaojZCFuhO8DjuQ0ZBvhpJYL6jA9plzhxTVrJRYrFFzGm1mPFZCjx4g02n86WSup9XiX16F55fZAIrDdoDE68Sm3yx93DMZBWDXrqb2zV69t9gXf' # access token for use with all api calls
 	creds['client_id'] = '871721670039728' # client id from facebook app IG Graph API Test
 	creds['client_secret'] = '031d2fb3c0977e7f10138d1293b05485' # client secret from facebook app
 	creds['graph_domain'] = 'https://graph.facebook.com/' # base domain for api calls
 	creds['graph_version'] = 'v6.0' # version of the api we are hitting
 	creds['endpoint_base'] = creds['graph_domain'] + creds['graph_version'] + '/' # base endpoint with domain and version
 	creds['debug'] = 'no' # debug mode for api call
-	creds['page_id'] = 'FB-PAGE-ID' # users page id
+	creds['page_id'] = '114665857351969' # users page id
 	creds['instagram_account_id'] = 'INSTAGRAM-BUSINESS-ACCOUNT-ID' # users instagram account id
-	creds['ig_username'] = 'IG-USERNAME' # ig username
+	creds['ig_username'] = 'andres.boullosa' # ig username
 
 	return creds
 

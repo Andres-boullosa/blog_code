@@ -23,18 +23,18 @@ params = getCreds() # get creds
 params['debug'] = 'no' # set debug
 response = getAccountInfo( params ) # hit the api for some data!
 
-print "\n---- ACCOUNT INFO -----\n" # display latest post info
-print "username:" # label
-print response['json_data']['business_discovery']['username'] # display username
-print "\nwebsite:" # label
-print response['json_data']['business_discovery']['website'] # display users website
-print "\nnumber of posts:" # label
-print response['json_data']['business_discovery']['media_count'] # display number of posts user has made
-print "\nfollowers:" # label
-print response['json_data']['business_discovery']['followers_count'] # display number of followers the user has
-print "\nfollowing:" # label
-print response['json_data']['business_discovery']['follows_count'] # display number of people the user follows
-print "\nprofile picture url:" # label
-print response['json_data']['business_discovery']['profile_picture_url'] # display profile picutre url
-print "\nbiography:" # label
-print response['json_data']['business_discovery']['biography'] # display users about section
+print("\n---- ACCOUNT INFO -----\n") # display latest post info
+print("username:" )# label
+print(response['json_data']['business_discovery']['username']) # display username
+print( "\nwebsite:") # label
+print( response['json_data']['business_discovery']['website']) # display users website
+print( "\nnumber of posts:") # label
+print( response['json_data']['business_discovery']['media_count']) # display number of posts user has made
+print( "\nfollowers:") # label
+print( response['json_data']['business_discovery']['followers_count']) # display number of followers the user has
+print( "\nfollowing:") # label
+print( response['json_data']['business_discovery']['follows_count']) # display number of people the user follows
+print( "\nprofile picture url:") # label
+print( response['json_data']['business_discovery']['profile_picture_url']) # display profile picutre url
+print( "\nbiography:") # label
+print( response['json_data']['business_discovery']['biography']) # display users about section
